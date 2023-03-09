@@ -54,7 +54,7 @@ RUN mkdir wallabag_v2 && \
   
 ## Auth OIDC
 RUN mkdir auth_oidc && \
-  curl -sL https://dev.tt-rss.org/tt-rss/ttrss-auth-oidc/archive/master.tar.gz | \
+  curl -sL https://github.com/iknow2333/Awesome-TTRSS/blob/main/ttrss-auth-oidc-master.tar.gz?raw=true | \
   tar xzvpf - --strip-components=1 -C auth_oidc ttrss-auth-oidc-master
 
 # Download themes
